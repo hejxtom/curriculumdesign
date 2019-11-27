@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Register</title>
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<div class="register-container">
+	<h1>ShareLink</h1>
+	
+	<div class="connect">
+		<p>Link the world. Share to world.</p>
+	</div>
+	
+	<form action="addElectonic.do" method="post" id="registerForm">
+		<div>
+			<input type="text" name="username" class="username" placeholder="UserName"/>
+		</div>
+		<div>
+			<input type="password" name="password" class="password" placeholder="PassWord" />
+		</div>
+		<div>
+			<input type="password" name="confirm_password" class="confirm_password" placeholder="Confirm Password" />
+		</div>
+		<div>
+			<input type="tel" name="phone_number" class="phone_number" placeholder="Enter mobile phone number"/>
+		</div>
+		<div>
+			<input type="email" name="email" class="email" placeholder="Enter mailbox address"/>
+		</div>
+		<button id="submit" type="submit">Register</button>
+	</form>
+	<a href="index.html">
+		<button type="button" class="register-tis">Do you have an account?</button>
+	</a>
+
+</div>
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<!--背景图片自动更换-->
+<script src="js/supersized.3.2.7.min.js"></script>
+<script src="js/supersized-init.js"></script>
+<!--表单验证-->
+<script src="js/jquery.validate.min.js?var1.14.0"></script>
+</html>

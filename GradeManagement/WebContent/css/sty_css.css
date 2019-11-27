@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #6D4A70;
+    font-size: 20px;
+    color:#FFFFFF;
+}
+div.header{
+	height: 200px;
+	text-align: center;
+	font-size: 40px;
+	color: #FFF;
+}
+div#Query{
+    position: absolute;
+    left: 550px;
+    top:80px;
+}
+div#show{
+    position:absolute;
+    left:140px;
+    top: 250px;
+    width: 100%;
+}
+div#retrun{
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    height: 20px;
+}
+div.ShangJi{
+	position:absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 16px;
+    height: 20px;
+}
+#formBtn{
+	position:absolute;
+	top:142px;
+	left:0px;
+    font-size: 20px;
+    width: 80px;
+    height: 25px;
+    background: #6D4A70;
+    color: #FFF;
+    border: solid 2px #6D4A70;
+    text-align: left;
+}
+#formBtna{
+	 font-size: 20px;
+    width: 80px;
+    height: 25px;
+    background: #6D4A70;
+    color: #FFF;
+    border: solid 2px #6D4A70;
+    text-align: left;
+    position: absolute;
+    top:150px;
+    left: 80px;
+    
+}
+#formBtnae{
+	font-size: 20px;
+    width: 80px;
+    height: 25px;
+    background: #6D4A70;
+    color: #FFF;
+    border: solid 2px #6D4A70;
+    text-align: left;
+    position: absolute;
+    top:120px;
+    left: 80px;
+}
+a{
+	text-decoration:none;
+	color:#FFF; 
+}
+a:hover{color:#523854;}
+
+#add{
+    position:absolute;
+    left: 350px;
+    top:150px;
+}
+#resform{
+    position:absolute;
+    right: 350px;
+    top:200px;
+}
+#suhead{
+   text-align: center;
+   font-size: 80px;
+   color: #FFFFFF;
+   height: 100px
+}
+.update{
+	position:absolute;
+	top:220px;
+	left:400px;
+	font-size: 20px;
+	width: 68px;
+	height: 25px;
+	background: #6D4A70;
+	color:#FFFFFF;
+	border: 2px solid #6D4A70;
+	
+}
+.delete{
+	position:absolute;
+	top:222px;
+	left:850px;
+	font-size: 20px;
+	width: 68px;
+	height: 25px;
+	background: #6D4A70;
+	color:#FFFFFF;
+	border: 2px solid #6D4A70;
+}
+#add{
+	position: absolute;
+	top:143px;
+	left: 120px;
+}
+input[type="radio"],input[type="checkbox"]{
+zoom:180%;
+}
+table td{
+	text-align: center;
+	vertical-align:middle;
+}
+table th{
+	width: 10%;
+	text-align: center;
+	vertical-align:middle;
+}
